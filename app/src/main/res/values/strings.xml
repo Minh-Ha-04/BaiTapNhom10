@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">BaiTapNhom10</string>
+    <string name="app_name">Quản Lý Nhà Trọ</string>
+    <string name="them_phong">Thêm Phòng</string>
+    <string name="sua_phong">Sửa Thông Tin Phòng</string>
 </resources>

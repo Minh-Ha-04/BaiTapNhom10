@@ -3,13 +3,13 @@ plugins {
 }
 
 android {
-    namespace = "com.example.baitapnhom10"
+    namespace = "com.example.nhatro"
     compileSdk {
         version = release(36)
     }
 
     defaultConfig {
-        applicationId = "com.example.baitapnhom10"
+        applicationId = "com.example.nhatro"
         minSdk = 24
         targetSdk = 36
         versionCode = 1
@@ -41,4 +41,9 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
+    implementation("androidx.appcompat:appcompat:1.6.1")
+    implementation("com.google.android.material:material:1.10.0")
+    implementation("androidx.recyclerview:recyclerview:1.3.1")
+    implementation("androidx.cardview:cardview:1.0.0")
+    implementation("androidx.constraintlayout:constraintlayout:2.1.4")
 }
